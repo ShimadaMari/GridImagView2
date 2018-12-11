@@ -62,6 +62,7 @@ public class GridAdapter extends BaseAdapter {
 
             convertView.setTag(holder);
 
+            //holderでinflateを再利用
         }else {
             holder = (ViewHolder)convertView.getTag();
            // if (imageView != null) {
